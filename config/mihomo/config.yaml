@@ -1,4 +1,5 @@
 # 必读！！！
+# 此版本没有做防泄露处理，如介意请使用另一个名字为configdns的版本
 # 注意规则在满足自己需求情况下，尽量做到精简，不要过度复杂，以免影响性能。
 # 跑裸核用户请自行去掉下方控制面板模块的注释。
 # 机场订阅
@@ -39,10 +40,9 @@ profile:
   store-fake-ip: true
 
 # 为防止使用插件朋友遇到面板问题，我注释掉了此模块。
-# 跑裸核朋友自行删除注释即可，使用nikki仅内核的ui路径改为/etc/nikki/run/ui
 #external-controller: 0.0.0.0:9090
 #secret: ""
-#external-ui: "/etc/mihomo/ui"
+#external-ui: ui
 #external-ui-name: zashboard
 #external-ui-url: "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip"
 
